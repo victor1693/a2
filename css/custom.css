@@ -1,0 +1,114 @@
+body {
+    background-image: url('../img/background.jpg');
+}
+.animated {
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation-name: fadeIn;
+}
+.head-conteiner {
+    border-radius: 5px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    position: relative;
+}
+.head-conteiner .logo-container {
+    width: 100px;
+}
+.head-conteiner .logo-container img {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 0;
+    left: 0;
+}
+.title-container {
+    padding-left: 60px;
+}
+.title-container h1 {
+    font-size: 22px;
+}
+.title-container h1 p {
+    font-size: 14px;
+    margin-top: 2px !important;
+    font-weight: 400;
+}
+.table td, .table th {
+    padding: 1px 5px;
+}
+.tabla {
+    width: 700px;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.tabla h2 {
+    font-size: 18px;
+}
+.action-col {
+    width: 75px;
+}
+.filas-col {
+    width: 40px;
+}
+.btn-action {
+    padding: 0px !important;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.btn-tabla {
+    float: right !important;
+}
+button {
+    outline: none !important;
+}
+.modal-header {
+    padding: 2px 15px !important;
+}
+label {
+    font-weight: 500 !important;
+    margin-bottom: 0px;
+}
+.input-sm {
+    padding: 2px !important;
+    height: 25px !important;
+    font-size: 13px;
+}
+input:focus, input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.img-crud-container {
+    position: relative;
+}
+.img-crud-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+.required {
+    border: 1px solid #8a0000;
+}

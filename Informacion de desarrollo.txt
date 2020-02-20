@@ -1,0 +1,8 @@
+Servidor:localhost
+Usuario:root
+Clave=''
+BD = a2db
+
+Versión de PHP: 5.5.27
+Extensión PHP: mysqli
+Tipo de servidor de BD: MySQL
